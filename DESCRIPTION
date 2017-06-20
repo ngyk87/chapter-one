@@ -2,4 +2,4 @@ Package: placeholder
 Title: Chapter One, a journey with DataKind-SG
 Version: 0.0.1
 Imports: bookdown
-Remotes: datakind-sg/chapter-one
+Remotes: rstudio/bookdown

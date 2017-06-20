@@ -1,0 +1,28 @@
+# Overview of Project Flow
+
+We shall have an overview of the overall data project flow in this chapter. This helps to set the context and helps you relate to the recommended practices described in this book. Subsequently we shall be taking a deep dive into the specific topics.
+
+While each of these chapters can be read independently depending on your needs, it references the project flow heavily and it helps if you read this chapter first.
+
+## Project Accelerators
+
+Do Something
+
+## DataJams
+
+Do Something
+
+## DataDive
+
+### Before DataDive
+
+
+### During DataDive
+
+
+### After DataDive
+
+
+## DataCorps
+
+Do Something

@@ -7,20 +7,22 @@ Welcome to a new chapter in your journey with us at DataKind-SG. As with all gre
 
 Here, you can find nuggets of information containing lessons learnts, best practices and resources to help you start your journey. Have fun!
 
-# Local Build
+[Start reading!](https://datakind-sg.github.io/chapter-one/)
+
+## Local Build
 If you would like to build the book locally, please see the sections below.
 
-## Pre-requisites
+### Pre-requisites
 - R
 - pandoc
 - Packages: bookdown, rmarkdown
 
-## Commands
+### Commands
 Run the following command and HTML files will be generated in the ./_book directory. To start reading, open `index.html`
 ```
 bookdown::render_book("index.Rmd", "bookdown::gitbook")
 ```
 
-# References
+## References
 [bookdown Demo](https://github.com/rstudio/bookdown)  
 [bookdown Documentation](https://bookdown.org/yihui/bookdown/)

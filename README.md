@@ -20,5 +20,5 @@ bookdown::render_book("index.Rmd", "bookdown::gitbook")
 ```
 
 # References
-[bookdown Demo](https://github.com/rstudio/bookdown)
+[bookdown Demo](https://github.com/rstudio/bookdown)  
 [bookdown Documentation](https://bookdown.org/yihui/bookdown/)

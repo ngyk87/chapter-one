@@ -8,7 +8,7 @@ documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: datakind-sg/best-practices
+github-repo: datakind-sg/chapter-one
 description: "The first thing to read when you want to volunteer for DataKind Singapore"
 ---
 

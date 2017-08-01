@@ -2,7 +2,7 @@
 
 ## Tracking Progress
 
-Trello!
+We use Trello for tracking progress.
 
 ## Tasks and Assignment
 

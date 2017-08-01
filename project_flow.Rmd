@@ -4,25 +4,28 @@ We shall have an overview of the overall data project flow in this chapter. This
 
 While each of these chapters can be read independently depending on your needs, it references the project flow heavily and it helps if you read this chapter first.
 
+## Project Funnel
+In the picture below, you will see the project funnel that DataKind SG uses to assist our social sector partners
+
+![DataKind Project Funnel](DK_project_funnel.png)
+
 ## Project Accelerators
 
-Do Something
+This is the session where we bring the data science community together with our social sector partners in brainstorming sessions to take the first steps towards a successful data science project.
 
 ## DataJams
 
-Do Something
+Once data has been obtained, we hold DataJam sessions that bring the data experts together with social sector partners to clean up and prepare the data prior to DataDives and/or DataCorps
 
 ## DataDive
 
-### Before DataDive
-
-
-### During DataDive
-
-
-### After DataDive
+DataDives are where the data experts and social sector partners collaborate to generate data solutions and/or products, tackling tough problems over the course of a weekend.
 
 
 ## DataCorps
 
-Do Something
+DataCorps are specialized teams of pro bono data scientists who work on indepth, 6 to 9-month projects for social sector partners.
+
+## DataLearn
+
+From time-to-time, we may also conduct DataLearn sessions, where we help prepare our volunteers for DataDives through hands-on tutorials and workshops.

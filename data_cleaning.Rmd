@@ -40,7 +40,7 @@ def test_clean_col_1():
     assert False
 ```
 
-By default, the test for column 1 is skipped. To enable the test, you will have to comment or remove the line `@pytest.mark.skip`. Subsequently, you can proceed to define the test by using the `assert` statement.
+By default, the test for column 1 is skipped. To enable the test, you will have to comment or remove the line `@pytest.mark.skip` as well as the line `assert False`. Subsequently, you can proceed to define the test(s) by using the `assert` statement.
 
 To test, run 
 ```

@@ -87,6 +87,13 @@ $ python clean_<file name of dataset>.py
 
 You can find the generated file that is named `cleaned_<file name of dataset>.csv` in the designated directory.
 
+You can download and run the completed example test and cleaning scripts in the links below.
+
+> [test_clean_sample_data.py](https://github.com/DataKind-SG/chapter-one/blob/master/resources/examples/tddc/test_clean_sample_data.py)  
+> [clean_sample_data.py](https://github.com/DataKind-SG/chapter-one/blob/master/resources/examples/tddc/clean_sample_data.py)  
+> [sample_data.csv](https://github.com/DataKind-SG/chapter-one/blob/master/resources/examples/tddc/sample_data.csv)
+
+
 #### Commit changes and create pull requests
 Run the following command to push your changes to Github.  
 ```
@@ -109,12 +116,14 @@ $ pip3 install git+https://github.com/DataKind-SG/test-driven-data-cleaning.git
 Last but not least, your dataset needs to be in CSV format.
 
 #### Creating the scaffolds and Trello board
-In this walkthrough we shall use an example CSV file that can be downloaded from: https://github.com/DataKind-SG/test-driven-data-cleaning/raw/master/input/foobar_data.csv
+In this walkthrough we shall use an example CSV file that can be downloaded from the link below.
+
+> [sample_data.csv](https://github.com/DataKind-SG/chapter-one/blob/master/resources/examples/tddc/sample_data.csv)
 
 In the same directory as the file, run:
 
 ```
-$ tddc summarize foobar_data.csv
+$ tddc summarize sample_data.csv
 ```
 
 This takes the csv data set and summarizes it, outputing to a json file in a newly created output/ directory.
@@ -138,7 +147,7 @@ https://trello.com/1/authorize?expiration=1day&scope=read,write,account&response
 Next, you can run:
 
 ```
-$ tddc build_trello foobar_data.csv
+$ tddc build_trello sample_data.csv
 ```
 
 If `.tddc_config.yml` has not yet been created, the command will fail and give you instructions on how to create a Trello configuration file in your root directory.
@@ -147,9 +156,9 @@ Once you create it, you can try to run that step again. This will create a Trell
 Next, you can run:
 
 ```
-$ tddc build foobar_data.csv
+$ tddc build sample_data.csv
 ```
 
-This outputs a script into the output/ folder that contains method stubs and glue code to clean the data set. It also outputs stubs for tests in output/.
+This outputs a script into the output/ folder that contains method stubs and glue code to clean the data set. It also outputs stubs for tests in output/. Please refer to the previous section for volunteers to see how these test and cleaning scripts can be used.
 
 Finally, commit the test and cleaning scripts to your team's Github repository.

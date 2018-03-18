@@ -1,6 +1,6 @@
 book_filename: "Chapter One - A Journey with DataKind-SG"
 new_session: yes
-rmd_files: ["index.Rmd", "project_flow.Rmd", "project_management.Rmd", "data_cleaning.Rmd", "code_management.Rmd", "reproducible_environment.Rmd", "data_protection_and_ethics.Rmd", "resources.Rmd", "about.Rmd", "references.Rmd"]
+rmd_files: ["index.Rmd", "project_flow.Rmd", "project_management.Rmd", "data_cleaning.Rmd", "code_management.Rmd", "reproducible_research_workshop.Rmd", "data_protection_and_ethics.Rmd", "resources.Rmd", "about.Rmd", "references.Rmd"]
 language:
   ui:
     chapter_name: "Chapter "

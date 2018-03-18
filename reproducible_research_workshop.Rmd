@@ -1,14 +1,14 @@
 # Docker Pipeline for Reproducible Research
 
 Workshop version: 1.0.0  
-Last updated: 17 March 2018
-TinyUrl Link: [https://tinyurl.com/fossasia](https://tinyurl.com/fossasia)
+Last updated: 17 March 2018  
+TinyUrl Link: [https://tinyurl.com/fossasia](https://tinyurl.com/fossasia)  
 
-## **Overview**
+## Overview
 
 Datakind Singapore has been using docker to help reproduce environments that were used during DataDive events. Apart from versioning the files/scripts that were used during analysis, we also version the environments where we ran such scripts. In this workshop, we'll walkthrough how we use docker to promote reproducibility.     
 
-## **Prerequisites**
+## Prerequisites
 
 In order to follow along in this workshop, you would need to have an account in github, quay.io, and play-with-docker.
 
@@ -20,11 +20,11 @@ If you don't have yet, kindly create an account in the following platforms:
 
 * ![](resources/images/docker-pipeline/image_2.png)[https://labs.play-with-docker.com/](https://labs.play-with-docker.com/) 
 
-## **Task 1: Setup Dockerfile**
+## Task 1: Setup Dockerfile
 
 1. Before a DataDive event, we try to engage with the NGO team representatives to know what data tools the volunteers will be using during the event. Based on previous DataDive events, RStudio and Jupyter Notebooks tend to be popular among volunteers. In this workshop, we'll try to build a docker image for a python jupyter notebook. To save time, we already prepared a dockerfile and related demo materials for you. 
 
-	Login to your github using your account.
+Login to your github using your account.
 
 Then, kindly fork the following repository to your github account:
 
@@ -92,7 +92,7 @@ Then, click **continue**.
 
 10. Select the context where our dockerfile is located: **/workshop/demo_docker_setup**
 
-	Then, click **continue**.
+Then, click **continue**.
 
 ![](resources/images/docker-pipeline/image_14.png)
 
@@ -104,7 +104,7 @@ Just click **continue**.
 
 12. Whew! We're ready to go.
 
-	Click **continue**.
+Click **continue**.
 
 ![](resources/images/docker-pipeline/image_16.png)
 
@@ -126,9 +126,8 @@ Just click **continue**.
 
 17. You should see the flashing dots indicating that the build has started.
 
-	![](resources/images/docker-pipeline/image_21.png)
+![](resources/images/docker-pipeline/image_21.png)
 
-	
 
 18. Once the build is complete ![](resources/images/docker-pipeline/image_22.png), click the **label **section ![](resources/images/docker-pipeline/image_23.png).
 
@@ -140,9 +139,9 @@ Just click **continue**.
 
 20. Enter the version as the tag name. We use semantic versioning (https://semver.org/) MAJOR.MINOR.PATCH
 
-	Enter **1.0.0**
+Enter **1.0.0**
 
-**	**Then, click "**Create Tag**" button
+Then, click "**Create Tag**" button
 
 ![](resources/images/docker-pipeline/image_26.png)
 
@@ -164,9 +163,9 @@ We call them our Docker Captains. They help confirm and ensure that our voluntee
 
 1. Docker captains usually have docker installed in their laptops during the DataDive and use that for curation. However in this workshop, we'll use play-with-docker so that you don't need to setup docker locally in your machine.
 
-	**Login **to Play with Docker: [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/) 
+**Login **to Play with Docker: [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/) 
 
-	![](resources/images/docker-pipeline/image_28.png)
+![](resources/images/docker-pipeline/image_28.png)
 
 2. Click **Start**
 
@@ -178,17 +177,17 @@ We call them our Docker Captains. They help confirm and ensure that our voluntee
 
 4. In the console, git clone your **contain-yourself **github repo.
 
-	Type the following:
+Type the following:
 
-	`git clone https://github.com/<your github account>/contain-yourself.git`
+`git clone https://github.com/<your github account>/contain-yourself.git`
 
-	Then, hit **enter**.
+Then, hit **enter**.
 
 ![](resources/images/docker-pipeline/image_31.png)
 
 5. Type the following:
 
-`docker run -p 80:8888 -v /root/contain-yourself/workshop/demo_notebooks:/home/jovyan/work quay.io/**<your quay.io account name>**/workshop-notebook:1.0.0`
+`docker run -p 80:8888 -v /root/contain-yourself/workshop/demo_notebooks:/home/jovyan/work quay.io/<your quay.io account name>/workshop-notebook:1.0.0`
 
 Then, hit **enter**.
 
@@ -198,20 +197,20 @@ It will start pulling the image from quay.io.
 
 6. Once your jupyter token is ready, **click **on the port **80** link
 
-	In the previous step, we had mapped our container's port 8888 to the host's port 80.
+In the previous step, we had mapped our container's port 8888 to the host's port 80.
 
-	![](resources/images/docker-pipeline/image_33.png)
+![](resources/images/docker-pipeline/image_33.png)
 
 7. A new tab will open for jupyter. 
 
-	Enter your jupyter token accordingly and click **Log in**.
+Enter your jupyter token accordingly and click **Log in**.
 
 ![](resources/images/docker-pipeline/image_34.png)
 
 8. You should now see 2 notebooks and 1 json data file.
 Click the notebook of volunteer **1**: analysis_from_volunteer_**1**.ipynb
 
-	![](resources/images/docker-pipeline/image_35.png)
+![](resources/images/docker-pipeline/image_35.png)
 
 9. In volunteer 1's notebook, click **Cell**.
 
@@ -221,7 +220,7 @@ Then, click **Run All**.
 
 10. Scroll to the bottom of the notebook.
 
-	You should see the following stacked bar chart generated:
+You should see the following stacked bar chart generated:
 
 ![](resources/images/docker-pipeline/image_37.png)
 
@@ -301,7 +300,7 @@ If it's not, try refreshing the page.
 
 7. Enter the version as the tag name. We use semantic versioning (https://semver.org/) MAJOR.MINOR.PATCH
 
-Enter **1.0.***1***
+Enter *1.0.***1**
     
 Then, click "**Create Tag**" button
 

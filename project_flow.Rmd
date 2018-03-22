@@ -7,7 +7,7 @@ While each of these chapters can be read independently depending on your needs, 
 ## Project Funnel
 In the picture below, you will see the project funnel that DataKind SG uses to assist our social sector partners
 
-![DataKind Project Funnel](DK_project_funnel.png)
+![DataKind Project Funnel](resources/images/about-dksg/DK_project_funnel.png)
 
 ## Project Accelerators
 

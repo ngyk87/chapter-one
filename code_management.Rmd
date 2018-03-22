@@ -93,7 +93,7 @@ https://help.github.com/articles/creating-a-pull-request/
 * Sample Usage
     * Sample demo on how to run/call the script
 
-You can view a sample Script [here](https://github.com/DataKind-SG/chapter-one/blob/master/metadata_sample/metadata_sample.R).
+You can view a sample Script [here](https://github.com/DataKind-SG/chapter-one/blob/master/resources/examples/metadata_sample/metadata_sample.R).
 
 To add the files into Docker, you need to additional environment information (quay.io docker filepath) 
 e.g., for R: #' docker_filepath: quay.io/dksg/children-society-r-notebook:x.x.x)

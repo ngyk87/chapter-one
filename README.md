@@ -9,8 +9,11 @@ Here, you can find nuggets of information containing lessons learnts, best pract
 
 [Start reading!](https://datakind-sg.github.io/chapter-one/)
 
+## Contributing
+You can start contributing by simply start editing the .Rmd files in your favorite text editor and submit a pull request! Wondering how do you edit markdown files? You can start by reading [this article](https://rmarkdown.rstudio.com/lesson-8.html) and [this one too](https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)! 
+
 ## Local Build
-If you would like to build the book locally, please see the sections below.
+If you would like to build the book locally instead, please see the sections below.
 
 ### Pre-requisites
 - R

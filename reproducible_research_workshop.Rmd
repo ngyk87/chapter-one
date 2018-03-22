@@ -1,8 +1,11 @@
 # Docker Pipeline for Reproducible Research
 
 Workshop version: 1.0.0  
-Last updated: 17 March 2018  
-TinyUrl Link: [https://tinyurl.com/fossasia](https://tinyurl.com/fossasia)  
+Last updated: `r Sys.Date()`  
+TinyUrl Links:  
+
+* [https://tinyurl.com/fossasia](https://tinyurl.com/fossasia)  
+* [https://tinyurl.com/dockerlab](https://tinyurl.com/dockerlab)  
 
 ## Overview
 

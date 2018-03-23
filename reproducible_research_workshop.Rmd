@@ -291,7 +291,7 @@ In this workshop, we kept it simple.
 
 5. Once the build is complete ![](resources/images/docker-pipeline/image_45.png), click the **label **section ![](resources/images/docker-pipeline/image_46.png).
 
-    ![](image_47.png)
+    ![](resources/images/docker-pipeline/image_47.png)
 
 6. Click the **setting **button on the **latest **tag and click "**Add New Tag**"
 
